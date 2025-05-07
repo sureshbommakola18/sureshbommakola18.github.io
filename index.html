@@ -1,94 +1,101 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SURESH-BOMMAKOLA
-    </title>
-    <style>
-    h1{
-        text-align: center;
-        color: rgb(80, 93, 238);
-        font-weight: bolder;
-        background-color: rgb(237, 110, 188);
-        
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suresh Bommakola </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #000000;
+      margin: 0;
+      padding: 0;
+      color: #333;
     }
-    body{
-        background-color: antiquewhite;
-        size: initial;
+    header {
+      background: #000000;
+      color: white;
+      text-align: center;
+      padding: 20px 20px;
     }
-    .button-container{
-        display: flex;
-        margin-inline-end: 10px;
-        margin-inline-start: 10px;
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
     }
-    button{
-        text-align: center;
-        padding:2px 15px;
-        display:flex;
-        margin-inline-end: 10px;
-        color: rgb(80, 93, 238);
-        inline-size: 100px;
-        block-size: 20px;
-        line-height: 15px;
-        display: block;
-       
-    }button:hover{
-        background-color: rgb(248, 109, 220);
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      font-style:oblique;
     }
-    input{
-        block-size: 25%;
-        inline-size:45%;
-        text-align: center;
-        display: flex;
-        margin-inline-end: 10px;
-
+    section {
+      background: rgb(253, 251, 251);
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 8px;
     }
-    footer{
-        text-align: center;
-        background-color: cornflowerblue;
+    img.profile {
+      max-width: 350px;
+      border-radius: 70%;
+      display: block;
+      margin: 15px auto;
     }
-    p{
-        font-size: xx-large;
-        font-weight: bold;
-        text-align: center;
+    footer {
+      text-align: center;
+      background: #010101;
+      color: #ccc;
+      padding: 20px 0;
     }
-    </style>
+    a {
+      color: #007acc;
+    }
+  </style>
 </head>
 <body>
-    <h1>WELCOME!!</h1>
-    <div class="button-container"><form action="home.html" method="post">
-        <button type="submit">Home</button>
-    </form> 
-    <form action="cart.html" method="post">
-        <button type="submit" >cart</button>
-    </form> 
-    <form action="services.html" method="post">
-        <button type="submit" >services</button>
-    </form>
-    <form action="about.html" method="post">
-        <button type="submit">About</button>
-        
-    </form>
-    
- 
-<input type="text" name="query" placeholder="search...!"> 
-<button type="submit">submit</button>
-<form action="help.html" method="post">
-    <button type="submit">Help?</button>
-</form>
-</div> 
-     <br><br><br><br><br><br>
 
-    <p> Welcome to my first project on web development!!<br>
-    This is Bommakola suresh, pursuing my bachelor degree from cmr technical campus<br>
-    for any queries visit help desk.<br>trying to create a better one than this 
+  <header>
+    <img src="images/profile.jpg" alt="Profile Photo" class="profile">
+    <h1>Suresh Bommakola</h1>
+    <p>Computer Science | Student | Web Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-</p><br><br><br><br><br><br><br><br><br>
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm a web developer passionate about creating interactive and responsive web experiences. I specialize in HTML, CSS, and JavaScript, and love building modern, clean websites.</p>
+    </section>
 
-    <footer>CMR Technical campus <br> Kandlakoi(v) ,Medchal ,Secunderabad <br>Contact:955391805
-    </footer>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="projects/project1.html">Project One – Simple HTML Site</a></li>
+      </ul>
+    </section>
 
-    
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: 
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sureshbommakola34@gmail.com" target="_blank">
+          sureshbommakola34@gmail.com
+        </a>
+      </p>
+      <p>GitHub: 
+        <a href="https://github.com/sureshbommakola18" target="_blank">
+          github.com/sureshbommakola18
+        </a>
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Suresh Bommakola. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
