@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Suresh Bommakola </title>
+  <title>Suresh Bommakola | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,57 +13,98 @@
       padding: 0;
       color: #333;
     }
+
+    .social-top-right {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      z-index: 999;
+    }
+
+    .social-top-right a {
+      color: white;
+      margin-left: 15px;
+      font-size: 20px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .social-top-right a:hover {
+      color: #00acee;
+    }
+
     header {
       background: #000000;
       color: white;
       text-align: center;
       padding: 20px 20px;
+      font-style: italic;
+      position: relative;
     }
+
     nav a {
       color: white;
       margin: 0 10px;
       text-decoration: none;
     }
+
     .container {
       max-width: 900px;
       margin: auto;
       padding: 20px;
-      font-style:oblique;
+      font-style: oblique;
     }
+
     section {
       background: rgb(253, 251, 251);
       margin: 20px 0;
       padding: 20px;
       border-radius: 8px;
     }
+
     img.profile {
       max-width: 350px;
       border-radius: 70%;
       display: block;
       margin: 15px auto;
     }
+
     footer {
       text-align: center;
       background: #010101;
       color: #ccc;
       padding: 20px 0;
     }
+
     a {
       color: #007acc;
+    }
+
+    i {
+      margin-right: 8px;
     }
   </style>
 </head>
 <body>
 
   <header>
+    <div class="social-top-right">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sureshbommakola34@gmail.com" target="_blank">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/sureshbommakola18" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/suresh-bommakola-72a3b02a5" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/suresh.__vv" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
     <img src="images/profile.jpg" alt="Profile Photo" class="profile">
     <h1>Suresh Bommakola</h1>
     <p>Computer Science | Student | Web Developer</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
   <div class="container">
@@ -73,28 +115,45 @@
 
     <section id="projects">
       <h2>Projects</h2>
-      <ul>
-        <li><a href="projects/project1.html">Project One – Simple HTML Site</a></li>
-      </ul>
+      <li><a href="projects/project1.html">Project One – FAKE-LOGO-DETECTION</a></li>
+    </section>
+
+    <section id="personalinfo">
+      <h2>Personal Details</h2>
+      <p><strong>DOB:</strong> 01-December-2004</p>
+      <p><strong>Languages:</strong> Telugu, English</p>
+      <p><strong>Address:</strong> Mancherial(d), Mandamarri(M), Yapal(V)</p>
+      <li><a href="projects/hobbies.html">Hobbies</a></li>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: 
+      <p><i class="fas fa-envelope"></i> Email: 
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sureshbommakola34@gmail.com" target="_blank">
-          sureshbommakola34@gmail.com
+          <i class="fas fa-envelope"></i>
         </a>
+        
       </p>
-      <p>GitHub: 
+      <p><i class="fab fa-github"></i> GitHub: 
         <a href="https://github.com/sureshbommakola18" target="_blank">
           github.com/sureshbommakola18
+        </a>
+      </p>
+      <p><i class="fab fa-linkedin"></i> LinkedIn: 
+        <a href="https://www.linkedin.com/in/suresh-bommakola-72a3b02a5" target="_blank">
+          linkedin.com/in/sureshbommakola
+        </a>
+      </p>
+      <p><i class="fab fa-instagram"></i> Instagram: 
+        <a href="https://www.instagram.com/suresh.__vv" target="_blank">
+          instagram.com/Suresh
         </a>
       </p>
     </section>
   </div>
 
   <footer>
-    <p>&copy; 2025 Suresh Bommakola. All rights reserved.</p>
+    <!-- <p>&copy; 2025 Suresh Bommakola. All rights reserved.</p> -->
   </footer>
 
 </body>
